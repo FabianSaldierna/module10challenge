@@ -1,0 +1,25 @@
+{
+  "name": "module10challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianSaldierna/module10challenge.git"
+  },
+  "author": "Fabian Saldierna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FabianSaldierna/module10challenge/issues"
+  },
+  "homepage": "https://github.com/FabianSaldierna/module10challenge#readme",
+  "dependencies": {
+    "inquirer": "^12.3.1",
+    "pg": "^8.13.1"
+  }
+}
