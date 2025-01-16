@@ -13,7 +13,16 @@ This project solves the challenge for Module 10 using relational Databases made 
 
 You may need to install NPM packages:
   npm i
-  
+
+You may have to create a .env file on the main directory of the project with this content:
+  DB_NAME=enterprise_db
+  DB_USER=XXXX
+  DB_PASSWORD=YYYY
+
+You may create the database and populate it with the files on .\db:
+  schema.sql
+  seeds.sql
+
 ## Usage
 
 Run the following command: 
